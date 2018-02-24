@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.facebook-login {
+  padding: 1%;
+  color: white;
+  background: #222222;
+  border: 1px solid #222222;
+  width: 100%;
+}
+
+.facebook-login p {
+  margin: 1%;
+}
+
+h3 {
+  color: rgba(51,122,183,1);
+}
+
+body{
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top, rgba(51,122,183,0),rgba(51,122,183,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top, rgba(51,122,183,0),rgba(51,122,183,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top,rgba(51,122,183,0),rgba(51,122,183,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(51,122,183,0),rgba(51,122,183,1)); /*Standard*/
+  background-attachment: fixed;
+}

@@ -1,0 +1,118 @@
+.vet {
+    border: 1px solid black;
+    margin: 1%;
+}
+
+.vet-list-container {
+    text-align: center;
+    color: black;
+}
+
+.vet.p, strong{
+    font-size: 2.5vh;
+}
+
+@media screen and (max-width:800px) {
+    strong, p{
+        font-size: 2vh;
+    }}
+
+
+.vets-img{
+    margin-top: 5%;
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vets-img img {
+    max-height: 133px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-group {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+}
+
+.glyphicon {
+    color: white;
+    background: #337ab7;
+}
+
+.btn-default {
+    background: #337ab7;
+    margin: 0 1%;
+}
+
+.btn-default:hover, .btn-default:focus{
+    background: #337ab7;
+}
+
+.vets-list {
+    background: #337ab7;
+    color: white;
+    margin: 1%;
+}
+
+.vets-list h3 {
+    margin-top: 1%;
+    padding: 1%;
+    color: white;
+}
+
+.vets-list h3:hover, .vets-list h3:focus {
+    text-decoration: none;
+}
+
+.vets-list:hover, .btn-default:hover, .btn-default:focus {
+    transform: translate(-3px, -3px);
+    box-shadow: 18px 18px 20px -17px rgba(0, 0, 0, 0.73);
+}
+
+.vets-list a {
+    text-decoration: none;
+}
+
+.btn-lg {
+    border-radius: 100px;
+}
+
+.form-control {
+    background-color: rgba(51,122,183,1);
+    color: white;
+    border-radius: 100px;
+}
+
+.thumb-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumb-col {
+    display: flex;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.thumb-col .thumbnail {
+    padding: 20px;
+}
+
+.thumb-col .single-list-element {
+    transition: all 0.1s ease-in;
+}
+
+.thumb-col .single-list-element:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 18px 18px 20px -17px rgba(0, 0, 0, 0.73);
+}
+
+.thumb-col a:link {
+    text-decoration: none;
+}

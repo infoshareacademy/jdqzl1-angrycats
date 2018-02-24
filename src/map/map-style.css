@@ -1,0 +1,26 @@
+.col-sm-12, .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right:0;
+}
+
+.mapMain {
+    height: calc(100vh - 52px);
+}
+.popover-title{
+    background-color: rgb(202, 60, 10);
+    color:white;
+}
+
+.pointer-main-map {
+    margin-left: -32px;
+    margin-top: -64px;
+}
+
+.popover-style {
+    transition: all 0.1s ease-in;
+}

@@ -1,0 +1,54 @@
+.col-sm-12, .col-md-10 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right:0;
+}
+
+.vet-search-map {
+    height: calc(100vh - 52px);
+}
+
+@keyframes purpleMark {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nearest-point {
+    animation-name: purpleMark;
+    animation-duration: 2s;
+    height: 64px;
+    margin-left: -32px;
+    margin-top: -64px;
+}
+
+.start-point {
+    height: 54px;
+    margin-left: -27px;
+    margin-top: -70px;
+}
+
+.nearest-vet-container {
+    font-size: 120%;
+    text-align: center;
+    color: black;
+    transition: all 0.1s ease-in;
+}
+
+.nearest-vet-container:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 18px 18px 20px -17px rgba(0, 0, 0, 0.73);
+}
+
+.vet-search-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

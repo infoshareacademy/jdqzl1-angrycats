@@ -1,0 +1,38 @@
+.office-list-container {
+    font-size: 2.5vh;
+    text-align: center;
+    color: black;
+    transition: all 0.1s ease-in;
+}
+
+.office-list-container:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 18px 18px 20px -17px rgba(0, 0, 0, 0.73);
+
+}
+
+#offices .rc-slider {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#offices .rc-slider-handle {
+    background-image: url("./paw-sidebar.png");
+    background-size: cover !important;
+    background-color: rgb(202, 54, 4);
+    width: 40px;
+    height: 40px;
+    margin-top:-13px;
+    border: rgb(202, 54, 4);
+}
+
+
+#offices .rc-slider-track {
+    background-color: rgba(51,122,183,1);
+    height:15px
+}
+
+#offices .rc-slider-step {
+    height:13px;
+}
+

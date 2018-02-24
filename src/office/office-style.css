@@ -1,0 +1,34 @@
+.office-map {
+    width: auto;
+    height: 300px;
+}
+
+.vet-list-container {
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    margin-top: 5%;
+}
+
+
+.pointer-one-office {
+    margin-left: -32px;
+    margin-top: -64px;
+}
+
+.vet-list-container a:link {
+    text-decoration: none;
+}
+
+.vet-list-container .single-list-element {
+    transition: all 0.1s ease-in;
+}
+
+.vet-list-container .single-list-element:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 18px 18px 20px -17px rgba(0, 0, 0, 0.73);
+}
+
+.vet-list-container .list-group {
+    margin-bottom: 5px;
+}
